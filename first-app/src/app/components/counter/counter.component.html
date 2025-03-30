@@ -1,1 +1,5 @@
-<p>counter works!</p>
+<p>Counter value: {{ counterValue() }}</p>
+
+<div class="flex gap-2">
+    <button (click)="increment()" class="bg-blue-500 text-white p-2 rounded-md">Increment</button><button (click)="decrement()" class="bg-blue-500 text-white p-2 rounded-md">Decrement</button><button (click)="reset()" class="bg-blue-500 text-white p-2 rounded-md">Reset</button>
+</div>
